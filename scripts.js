@@ -54,7 +54,7 @@ function playTimer() {
       clearInterval(timerInterval);
       timerInterval = null;
       isStarted = false;
-      startButton.innerHTML = `<i class="fa-solid fa-play" style="color: rgb(254, 254, 254)"></i>`;
+      startButton.innerHTML = `<i class="fa-solid fa-play" style="color: yellow"></i>`;
       alert("O tempo acabou!");
     }
   }, 1000);
@@ -64,7 +64,7 @@ function pauseTimer() {
   clearInterval(timerInterval);
   timerInterval = null;
   isStarted = false;
-  startButton.innerHTML = `<i class="fa-solid fa-play" style="color: rgb(254, 254, 254)"></i>`;
+  startButton.innerHTML = `<i class="fa-solid fa-play" style="color: yellow"></i>`;
 }
 
 function updateHourDisplay(e) {
@@ -167,7 +167,7 @@ function stopTimer() {
   minuteDisplay.value = "00";
   secondDisplay.value = "00";
 
-  startButton.innerHTML = `<i class="fa-solid fa-play" style="color: rgb(254, 254, 254)"></i>`;
+  startButton.innerHTML = `<i class="fa-solid fa-play" style="color: yellow"></i>`;
   inputs.forEach((input) => (input.disabled = false));
   editButton.innerHTML = `<i class="fa-solid fa-pen-to-square" style="color: rgb(254, 254, 254)"></i>`;
   inputs[0].focus();
