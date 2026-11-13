@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+    <title>Timer</title>
+  </head>
+  <body>
+    <main id="app-container">
+      <section id="timer-display">
+        <div>
+          <input
+            type="text"
+            inputmode="numeric"
+            id="hour-display"
+            value="00"
+            disabled
+          />
+        </div>
+        <span>:</span>
+        <div>
+          <input
+            type="text"
+            inputmode="numeric"
+            id="minute-display"
+            value="00"
+            disabled
+          />
+        </div>
+        <span>:</span>
+        <div>
+          <input
+            type="text"
+            inputmode="numeric"
+            id="second-display"
+            value="00"
+            disabled
+          />
+        </div>
+      </section>
+
+      <section id="button-container">
+        <button id="expand-button">
+          <i class="fa-solid fa-expand" style="color: rgb(254, 254, 254)"></i>
+        </button>
+        <button id="edit-time-button">
+          <i
+            class="fa-solid fa-pen-to-square"
+            style="color: rgb(254, 254, 254)"
+          ></i>
+        </button>
+        <button id="stop-button">
+          <i class="fa-solid fa-stop"></i>
+        </button>
+        <button id="pause-play-button">
+          <i class="fa-solid fa-play"></i>
+        </button>
+      </section>
+    </main>
+  </body>
+</html>
