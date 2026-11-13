@@ -10,61 +10,60 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="responsiveness.css" />
     <link rel="stylesheet" href="styles.css" />
     <script src="scripts.js" defer></script>
     <title>Timer</title>
   </head>
   <body>
-    <main id="app-container">
-      <section id="timer-display">
-        <div>
-          <input
-            type="text"
-            inputmode="numeric"
-            id="hour-display"
-            value="00"
-            disabled
-          />
-        </div>
-        <span>:</span>
-        <div>
-          <input
-            type="text"
-            inputmode="numeric"
-            id="minute-display"
-            value="00"
-            disabled
-          />
-        </div>
-        <span>:</span>
-        <div>
-          <input
-            type="text"
-            inputmode="numeric"
-            id="second-display"
-            value="00"
-            disabled
-          />
-        </div>
-      </section>
+    <section id="timer-display">
+      <div>
+        <input
+          type="text"
+          inputmode="numeric"
+          id="hour-display"
+          value="00"
+          disabled
+        />
+      </div>
+      <span>:</span>
+      <div>
+        <input
+          type="text"
+          inputmode="numeric"
+          id="minute-display"
+          value="00"
+          disabled
+        />
+      </div>
+      <span>:</span>
+      <div>
+        <input
+          type="text"
+          inputmode="numeric"
+          id="second-display"
+          value="00"
+          disabled
+        />
+      </div>
+    </section>
 
-      <section id="button-container">
-        <button id="expand-button">
-          <i class="fa-solid fa-expand" style="color: rgb(254, 254, 254)"></i>
-        </button>
-        <button id="edit-time-button">
-          <i
-            class="fa-solid fa-pen-to-square"
-            style="color: rgb(254, 254, 254)"
-          ></i>
-        </button>
-        <button id="stop-button">
-          <i class="fa-solid fa-stop"></i>
-        </button>
-        <button id="pause-play-button">
-          <i class="fa-solid fa-play"></i>
-        </button>
-      </section>
-    </main>
+    <section id="button-container">
+      <button id="expand-button">
+        <i class="fa-solid fa-expand" style="color: rgb(254, 254, 254)"></i>
+      </button>
+      <button id="edit-time-button">
+        <i
+          class="fa-solid fa-pen-to-square"
+          style="color: rgb(254, 254, 254)"
+        ></i>
+      </button>
+      <button id="stop-button">
+        <i class="fa-solid fa-stop"></i>
+      </button>
+      <button id="pause-play-button">
+        <i class="fa-solid fa-play"></i>
+      </button>
+    </section>
   </body>
 </html>

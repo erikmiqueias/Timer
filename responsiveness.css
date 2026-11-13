@@ -1,0 +1,27 @@
+@media screen and (max-width: 430px) {
+  #timer-display {
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  #timer-display input {
+    font-size: 3.5rem;
+  }
+
+  #timer-display span {
+    font-size: 2.5rem;
+  }
+
+  #button-container {
+    margin-top: 2rem !important;
+  }
+
+  #button-container button {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  #button-container button > i {
+    font-size: 1rem;
+  }
+}
